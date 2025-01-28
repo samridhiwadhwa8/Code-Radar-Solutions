@@ -1,6 +1,5 @@
 #include <stdio.h>
-
-float main{
+int main(){
     float number;
     scanf("%f",&number);
     printf("Ypu entered: %.2f\n ",number);
