@@ -6,6 +6,7 @@ char* welcome() {
 
 int main() {
     int n;
+    scanf("%d",&n);
     switch(n):
     {
      case '1':
