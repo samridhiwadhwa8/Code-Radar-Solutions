@@ -4,22 +4,18 @@ int main() {
     char c;
     scanf("%d %d",&a,&b);
     scanf("%c",&c);
-    int sum=a+b;
-    int div=a/b;
-    int mul=a*b;
-    int sub=a-b;
     switch(c){
         case '+':
-        printf("%d",sum);
+        printf("%d",a+b);
         break;
         case '-':
-        printf("%d",sub);
+        printf("%d",a-b);
         break;
         case '*':
-        printf("%d",mul);
+        printf("%d",a*b);
         break;
         case '/':
-        printf("%d",div);
+        printf("%d",a/b);
         break;
         default:
         printf("Error");
