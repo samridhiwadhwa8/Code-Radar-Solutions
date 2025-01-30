@@ -30,7 +30,7 @@ int main() {
         printf("Sunday");
         break;
         default:
-        printf("not a valid number");
+        printf("Invalid");
     }
     return 0;
 }
