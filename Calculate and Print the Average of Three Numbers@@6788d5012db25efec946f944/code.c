@@ -6,6 +6,6 @@ int main() {
     scanf("%d", &c);
     int d;
     d=(a+b+c)/3;
-    printf("%d",d);
+    printf("%d.00",d);
     return 0;
 }
