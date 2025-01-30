@@ -12,7 +12,7 @@ int main() {
         if(c==1){
             printf("Eligible");
         }
-        if(c==0){
+        else{
             prinf("Not Eligible");
         }
     }else{
