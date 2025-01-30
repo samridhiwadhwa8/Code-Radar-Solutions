@@ -13,7 +13,7 @@ int main() {
             printf("Eligible");
         }
         else{
-            prinf("Not Eligible");
+            printf("Not Eligible");
         }
     }else{
         printf("Not Eligible");
