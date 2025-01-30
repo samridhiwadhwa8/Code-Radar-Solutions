@@ -7,8 +7,7 @@ char* welcome() {
 int main() {
     int a,b;
     char c;
-    scanf("%d",&a);
-    scanf("%d",&b);
+    scanf("%d %d",&a,&b);
     scanf("%c",&c);
     int sum=a+b;
     int div=a/b;
@@ -27,6 +26,8 @@ int main() {
         case '/':
         printf("%d",div);
         break;
+        default:
+        printf("Error");
     }
     return 0;
 }
