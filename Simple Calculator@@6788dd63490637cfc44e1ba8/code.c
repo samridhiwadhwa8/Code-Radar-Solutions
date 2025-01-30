@@ -2,7 +2,8 @@
 int main() {
     int a,b;
     char c;
-    scanf("%d %d",&a,&b);
+    scanf("%d",&a);
+    scanf("%d",&b);
     scanf("%c",&c);
     switch(c){
         case '+':
