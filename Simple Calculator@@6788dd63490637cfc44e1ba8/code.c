@@ -10,18 +10,22 @@ int main() {
     scanf("%d",&a);
     scanf("%d",&b);
     scanf("%c",&c);
+    int sum=a+b;
+    int div=a/b;
+    int mul=a*b;
+    int sub=a-b;
     switch(c){
         case '+':
-        printf("%d %d",(a+b));
+        printf("%d",sum);
         break;
         case '-':
-        printf("%d %d",(a-b));
+        printf("%d",sub);
         break;
         case '*':
-        printf("%d %d",(a*b));
+        printf("%d",mul);
         break;
         case '/':
-        printf("%d %d",(a/b));
+        printf("%d",div);
         break;
     }
     return 0;
