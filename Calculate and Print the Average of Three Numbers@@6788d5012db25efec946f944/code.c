@@ -5,7 +5,7 @@ int main() {
     scanf("%d", &b);
     scanf("%d", &c);
     int d;
-    d=(a+b+c)/3;
+    d=(a+b+c)/3.0;
     printf("Average: %.2f\n",d);
     return 0;
 }
