@@ -4,6 +4,8 @@ int main() {
     scanf("%d", &a);
     scanf("%d", &b);
     scanf("%d", &c);
-    printf((a+b+c)/3);
+    int d;
+    d=(a+b+c)/3
+    printf("%d", d);
     return 0;
 }
