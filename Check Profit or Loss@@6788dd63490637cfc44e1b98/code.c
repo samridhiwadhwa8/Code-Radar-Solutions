@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main() {
-    int a,b;
-    scanf("%d",&a);
-    scanf("%d",&b);
-    if((a-b)>=1){
-        printf("Profit");
-    }else if((a-b)==0){
+    int cp,sp;
+    scanf("%d",&cp);
+    scanf("%d",&sp);
+    if(cp>=sp){
+        printf("Loss");
+    }else if(sp==cp){
         printf("No Profit No Loss");
     }else{
         printf("Loss");
