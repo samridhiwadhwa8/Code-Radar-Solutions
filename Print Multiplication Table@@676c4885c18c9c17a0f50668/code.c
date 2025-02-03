@@ -10,7 +10,7 @@ int main() {
     int p=1;
     for(int i=1;i<=n;i++){
         p=p*i;
-        printf("%d X %d = %d",n,i,p);
+        printf("%d X %d = %d\n",n,i,p);
     }
     return 0;
 }
