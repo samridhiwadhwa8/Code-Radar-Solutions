@@ -10,7 +10,7 @@ int main() {
     if(a | 0){
         printf("Set\n");
     }else{
-        printf("Not Set");
+        printf("Not Set\n");
     }
     return 0;
 }
