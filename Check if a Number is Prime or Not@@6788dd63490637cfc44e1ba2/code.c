@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <atdbool.h>
+#include <stdbool.h>
 
 char* welcome() {
     return "Welcome to Code Radar!";
