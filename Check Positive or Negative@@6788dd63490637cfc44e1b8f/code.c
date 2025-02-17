@@ -5,5 +5,10 @@ int main() {
     if (n==0){
         printf("Zero");
     }
-    int c=n>0?printf("Positive"):printf("Negative");
+    else if(n>0){
+        printf("Positive");
+    }
+    else{
+        printf("Negative");
+    }
 }
