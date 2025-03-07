@@ -1,12 +1,12 @@
 // Your code here...
 #include <stdio.h>
-void printarr(int[] arr, int n){
+void printarr(int arr[], int n){
     for(int i=0; i<arr.length; i++){
         scanf("%d", &arr[i]);
     }
     scanf("\n");
 }
-void even_odd(int[] arr, int n){
+void even_odd(int arr[], int n){
     int count=0;
     int odd=0;
     for(int i=0;i<n;i++){
