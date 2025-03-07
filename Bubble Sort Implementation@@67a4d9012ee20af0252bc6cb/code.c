@@ -19,4 +19,5 @@ void bubbleSort(int arr[], int n) {
         i++;
         j--;
 }
+}
 
