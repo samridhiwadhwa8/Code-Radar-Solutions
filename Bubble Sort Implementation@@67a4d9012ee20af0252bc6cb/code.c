@@ -18,6 +18,5 @@ void bubbleSort(int arr[], int n) {
         swap(arr, i, j);
         i++;
         j--;
-    }
 }
 
