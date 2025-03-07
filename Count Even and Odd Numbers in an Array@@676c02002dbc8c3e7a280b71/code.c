@@ -1,4 +1,5 @@
 // Your code here...
+#include <stdio.h>
 void printarr(int[] arr, int n){
     for(int i=0; i<arr.length; i++){
         scanf("%d", &arr[i]);
@@ -26,5 +27,6 @@ int main(){
     }
     even_odd(arr,n);
     printarr(arr,n);
+    return 0;
 }
 
