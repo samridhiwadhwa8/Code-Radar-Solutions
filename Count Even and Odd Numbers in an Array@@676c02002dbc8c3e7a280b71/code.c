@@ -18,7 +18,8 @@ void even_odd(int arr[], int n){
         }
     }
     printf("%d %d", count , odd);
-    }
+    
+}
 int main(){
     int n;
     scanf("%d",&n);
