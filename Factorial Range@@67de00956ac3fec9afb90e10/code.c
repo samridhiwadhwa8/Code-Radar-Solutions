@@ -9,7 +9,7 @@ int factorial(int num){
     }
 void factorialRange(int L, int R){
     if(L>R || L<0){
-        printf("Invalid Range");
+        printf("Invalid range");
         return;
     }
     for(int i=L;i<=R;i++){
