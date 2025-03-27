@@ -1,10 +1,14 @@
 // Your code here...
 #include <stdio.h>
-int factorialRange(int start,int end){
+int factorial(int start,int end){
     int fact=1;
-    for(int i=start;i<=end;i++){
-        fact=i*end;
-        printf("%d",fact);
+    for(int i=2;i<=num;i++){
+        fact *=i;
     }
-
+    return fact;
+    }
+void factorialRange(int L, int R){
+    for(int i=L;i<=R;i++){
+        printf("%d",factorial(i));
+    }
 }
