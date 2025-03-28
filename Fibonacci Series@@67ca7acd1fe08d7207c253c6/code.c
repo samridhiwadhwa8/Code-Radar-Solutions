@@ -8,7 +8,9 @@ int fibonacciSeries(int n){
     // if(n==1){
     //     return;
     // }
-    
+    if(n==1){
+        return 0;
+    }
     for(int i=3;i<=n;i++){
         int c=a+b;
         a=b;
