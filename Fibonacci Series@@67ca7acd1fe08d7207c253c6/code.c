@@ -9,7 +9,7 @@ int fibonacciSeries(int n){
     //     return;
     // }
     
-    for(int i=2;i<=n;i++){
+    for(int i=3;i<=n;i++){
         int c=a+b;
         a=b;
         b=c;
