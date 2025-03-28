@@ -6,7 +6,7 @@ int isPrime(int n){
         if(a==1){
             break;
         }
-        if(a==0)return 1;
-        else return 0;
+        if(a==0)printf("1");
+        else printf("0");
     }
 }
