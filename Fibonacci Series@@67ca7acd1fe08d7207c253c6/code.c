@@ -5,11 +5,13 @@ int fibonacciSeries(int n){
     int b=1;
     
     printf("%d ",a);
+    if(n==1){
+        return;
+    }
     printf("%d ",b);
     // if(n==1){
     //     return;
-    if (n == 1)
-        return;
+    
     for(int i=3;i<=n;i++){
         int c=a+b;
         a=b;
