@@ -17,7 +17,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
-        int dig=sumof(arr[i]);
-        printf("%d ",abs(dig));
+        int dig=abs(sumof(arr[i]));
+        printf("%d ",dig);
     }
 }
