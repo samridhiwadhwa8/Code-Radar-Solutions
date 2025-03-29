@@ -7,7 +7,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }int min1=arr[0];
-    int min2=100000;
+    int min2=1000000;
     for (int i = 1; i < n; i++) {
         if (arr[i] > min1) {
             min2 = min1;  // Update second largest to previous max
