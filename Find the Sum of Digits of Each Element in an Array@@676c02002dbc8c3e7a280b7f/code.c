@@ -1,5 +1,5 @@
 // Your code here...
-#include <stdi0.h>
+#include <stdio.h>
 int sumof(int n){
     int sum=0;
     while(n!=0){
