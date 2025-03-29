@@ -1,5 +1,6 @@
 // Your code here...
 #include <stdio.h>
+#include <stdbool.h>
 int main(){
     int n;
     scanf("%d",&n);
@@ -17,9 +18,9 @@ int main(){
         }
         int count=1;
         for(int j=i+1;j<n;j++){
-            if(arr[i]==ar[j]){
+            if(arr[i]==arr[j]){
                 count++;
-                visied[j]=true;
+                visited[j]=true;
             }
         }
         printf("%d %d",arr[i],count);
