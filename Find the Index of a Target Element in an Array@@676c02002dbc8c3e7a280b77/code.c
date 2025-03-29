@@ -14,7 +14,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int taregt;
+    int target;
     scanf("%d",&target);
     int result=linearSearch(n,arr,target);
     printf("%d",result);
