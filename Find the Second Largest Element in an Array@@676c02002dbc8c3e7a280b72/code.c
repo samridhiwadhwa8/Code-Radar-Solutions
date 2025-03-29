@@ -18,7 +18,7 @@ int main(){
             max2=arr[i];
         }
     }
-    if(max1==max2|| max2=-1000000){
+    if(max1==max2|| max2==-1000000){
         printf("-1");
     }
     else{
