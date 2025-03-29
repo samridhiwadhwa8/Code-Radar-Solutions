@@ -22,8 +22,9 @@ int main(){
                 count++;
                 visited[j]=true;
             }
+            printf("%d %d",arr[i],count);
         }
-        printf("%d %d",arr[i],count);
+        
         return 0;
     }
 }
