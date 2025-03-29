@@ -6,7 +6,7 @@ int main(){
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
-    }int min1=arr[0];
+    }int min1=arr[n];
     int min2=1000000;
     for (int i = 1; i < n; i++) {
         if (arr[i] > min1) {
