@@ -1,5 +1,3 @@
-// Your code here...
-#include <stdio.h>
 #include <stdlib.h>
 int sumof(int n){
     n=abs(n);
@@ -19,7 +17,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
-        dig=sumof(n);
+        dig=sumof(arr[i]);
         printf("%d",dig);
     }
     
