@@ -12,13 +12,14 @@ int sumof(int n){
 }
 int main(){
     int n;
+    int dig;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
-        int dig=sumof(n);
+        dig=sumof(n);
     }
     printf("%d",dig);
 }
