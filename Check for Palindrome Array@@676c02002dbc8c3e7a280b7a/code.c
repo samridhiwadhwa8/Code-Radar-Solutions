@@ -17,10 +17,10 @@ int main(){
     }
     int res=rev(n,arr);
     if(res==1){
-        int isp=0;
+        int isp=1;
         for(int i=0;i<n;i++){
             if(arr[i]=og[i]){
-                isp=1;
+                isp=0;
                 break;
             }
             if(isp){
