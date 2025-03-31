@@ -20,6 +20,7 @@ int main(){
     }
     for(int i=0;i<n;i++){
         dig=sumof(n);
+        printf("%d",dig);
     }
-    printf("%d",dig);
+    
 }
