@@ -1,5 +1,5 @@
 #include <stdio.h>
-int rev(int n, int arr){
+int rev(int n, int arr[]){
     for(int i=0;i<n/2;i++){
         int t=arr[i];
         arr[i]=arr[n-i-1];
