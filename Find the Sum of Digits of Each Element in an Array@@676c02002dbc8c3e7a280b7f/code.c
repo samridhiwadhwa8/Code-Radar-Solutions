@@ -9,16 +9,15 @@ int sumof(int n){
         n=n/10;
     }
     return sum;
-    }
+}
 int main(){
     int n;
     scanf("%d",&n);
-    int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
-        int dig=sumof(arr[i]);
-        printf("%d ",dig);
+        int dig=sumof(n);
     }
+    printf("%d",dig);
 }
