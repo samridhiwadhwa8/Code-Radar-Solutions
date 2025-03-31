@@ -1,6 +1,6 @@
 // Your code here.
 #include <stdio.h>
-int linearSearch(int n,int arr[], int target){
+int linearsearch(int n,int arr[],int target){
     for(int i=0;i<n;i++){
         if(arr[i]==target){
             return i;
@@ -17,6 +17,11 @@ int main(){
     }
     int target;
     scanf("%d",&target);
-    int result=linearSearch(n,arr,target);
-    printf("%d",result);
+    int res=linearsearch(n,arr,target);
+    if(res==-1){
+        printf("-1");
     }
+    else{
+        printf("%d",res);
+    }
+}
