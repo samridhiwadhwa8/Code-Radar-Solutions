@@ -15,8 +15,9 @@ int main(){
         }
         else if(arr[i]>max2 && arr[i]<max1){
             max2=arr[i];
-        }}
-        if(max2==max1 || max1<arr[i]){
+        }
+        }
+        if(max2==-100000){
             printf("-1");
         }
         else{
