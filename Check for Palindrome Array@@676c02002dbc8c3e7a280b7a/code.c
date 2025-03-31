@@ -23,12 +23,12 @@ int main(){
                 isp=0;
                 break;
             }
-            if(isp){
+        }
+        if(isp){
                 printf("YES");
             }
             else{
                 printf("NO");
             }
-        }
     }
 }
