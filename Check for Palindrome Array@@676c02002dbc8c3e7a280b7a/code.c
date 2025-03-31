@@ -19,7 +19,7 @@ int main(){
     if(res==1){
         int isp=1;
         for(int i=0;i<n;i++){
-            if(arr[i]=og[i]){
+            if(arr[i]!=og[i]){
                 isp=0;
                 break;
             }
