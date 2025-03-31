@@ -7,12 +7,13 @@ int selectionSort(int arr[] ,int n){
             if(arr[j]<arr[min]){
                 min=j;
             }
+        }
         if(min!=i){
             int temp=arr[min];
             arr[min]=arr[i];
             arr[i]=temp;
         }
-    }
+
 }
 }
 int printArray(int arr[], int n){
