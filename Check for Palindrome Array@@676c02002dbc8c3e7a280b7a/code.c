@@ -1,23 +1,35 @@
 // Your code here...
 #include <stdio.h>
+int rev(int n, int arr[]){
+    for(int i=0;i<n/2;i++){
+        int temp=arr[i];
+        arr[i]=arr[n-i-1];
+        arr[n-i-1]=temp;
+    }
+    return 1;
+}
 int main(){
     int n;
     scanf("%d",&n);
-    int arr[n];
+    int arr[n],or[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
+        or[i]=arr[i];
+
     }
-    int isPalin=1;
-    for(int i=0,j=n-1;i<j;i++,j--){
-        if(arr[i]!=arr[j]){
-            isPalin=0;
-            break;
+    int res=rev(n,arr);
+    if(res==1){
+        int ispalin =1;
+        for(int i=0;i<n;i++){
+            if(arr[i]!=or[i]){
+                ispalin=0;
+                break;
+            }
         }
-    }
-    if(isPalin){
+        if(ispalin)
         printf("YES");
-    }
-    else{
+        else
         printf("NO");
+
     }
 }
