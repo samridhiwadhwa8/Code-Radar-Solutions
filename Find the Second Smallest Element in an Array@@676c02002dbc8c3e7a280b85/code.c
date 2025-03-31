@@ -9,11 +9,11 @@ int main(){
     int min1=arr[0];
     int min2=100000;
     for(int i=0;i<n;i++){
-        if(min1<arr[i]){
+        if(min1>arr[i]){
             min2=min1;
             min1=arr[i];
         }
-        else if(arr[i]>min2 && min1>arr[i]){
+        else if(arr[i]<min2 && min1<arr[i]){
             min2=arr[i];
         }
     }
