@@ -7,6 +7,9 @@ int sumof(int n){
     //     sum+=n%10;
     //     n=n/10;
     // }
+    if(n==0){
+        return 0;
+    }
     return (n%10) +sumof(n/10);
 }
 int main(){
