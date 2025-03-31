@@ -7,7 +7,6 @@ int selectionSort(int arr[] ,int n){
             if(arr[j]<arr[min]){
                 min=j;
             }
-        }
         if(min!=i){
             int temp=arr[j];
             arr[j]=arr[j+1];
