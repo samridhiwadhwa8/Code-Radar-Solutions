@@ -6,21 +6,20 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-        max1=arr[0];
-        max2=-100000;
+        int max=arr[0],min=-100000;
         for(int i=0;i<n;i++){
-        if(arr[i]>max1){
-            max2=max1;
-            max1=arr[i];
+            if(arr[i]>max){
+                max=min;
+                min=arr[i];
+                arr[i]=max;
+            }
+            else if(arr[i]>max,max<min){
+                min=arr[i];
+            }
         }
-        else if(arr[i]>max2 && arr[i]<max1){
-            max2=arr[i];
-        }
-        }
-        if(max2==-100000){
+        if(max==min||min=-100000){
             printf("-1");
-        }
-        else{
-            printf("%d",max2);
+        }else{
+            printf("%d",min);
         }
     }
