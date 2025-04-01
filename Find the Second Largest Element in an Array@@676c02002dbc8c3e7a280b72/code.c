@@ -13,7 +13,7 @@ int main(){
                 min=max;
                 max=arr[i];
             }
-            else if(arr[i]>max,max<min){
+            else if(arr[i]>min,arr[i]<max){
                 min=arr[i];
             }
         }
